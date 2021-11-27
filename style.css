@@ -2,7 +2,7 @@
   display: grid;
   grid-template-rows: 40%;
   grid-row-start: 1;
-  height: 50px;
+  height: 50%;
   margin-bottom: 0%;
 }
 .area1 {
@@ -18,7 +18,7 @@
 .izazov2 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  height: 400px;
+  height: 400%;
 }
 
 .area2 {
