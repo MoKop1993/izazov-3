@@ -1,0 +1,72 @@
+.izazov {
+  display: grid;
+  grid-template-rows: 40%;
+  grid-row-start: 1;
+  height: 50px;
+  margin-bottom: 0%;
+}
+.area1 {
+  background-color: rgb(167, 31, 31);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  display: grid;
+  grid-area: 1 / 1 / 4 / 1;
+}
+
+.izazov2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  height: 400px;
+}
+
+.area2 {
+  display: grid;
+  grid-area: 1 / 1 / 4 / 2;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+}
+
+.area3 {
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+}
+
+.area4 {
+  background-color: rgb(70, 143, 70);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+}
+
+.area5 {
+  background-color: rgb(145, 145, 45);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+}
+
+@media screen and (max-width: 786px) {
+  .area3 {
+    display: grid;
+    grid-area: 1 / 2 / 2 / 6;
+  }
+
+  .area4 {
+    display: grid;
+    grid-area: 2 / 2 / 3 / 6;
+  }
+  .area5 {
+    display: grid;
+    grid-area: 3 / 2 / 4 / 6;
+  }
+}
